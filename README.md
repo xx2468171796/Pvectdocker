@@ -28,21 +28,7 @@
 
 ### 方法一：两步配置（推荐）
 
-#### 步骤 1: 在 PVE 宿主机上配置容器
 
-```bash
-# 上传脚本到 PVE 宿主机
-scp pve-ct-docker-setup.sh root@pve-host:/root/
-
-# SSH 登录到 PVE 宿主机
-ssh root@pve-host
-
-# 添加执行权限
-chmod +x /root/pve-ct-docker-setup.sh
-
-# 运行脚本
-./pve-ct-docker-setup.sh
-```
 
 脚本会提示您输入容器 ID，然后自动配置容器的必要参数。
 
