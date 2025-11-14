@@ -35,13 +35,7 @@
 #### 步骤 2: 在容器内配置 Docker
 
 ```bash
-# 进入容器
-pct enter <容器ID>
-
-# 上传脚本到容器（或从宿主机复制）
-# 在容器内运行脚本
-chmod +x pve-ct-docker-setup.sh
-./pve-ct-docker-setup.sh
+bash <(curl -Ls https://raw.githubusercontent.com/xx2468171796/Pvectdocker/main/pvectdocker.sh)
 ```
 
 选择安装 Docker 或配置现有 Docker。
